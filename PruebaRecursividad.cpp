@@ -8,7 +8,8 @@ int factorial (int n){
         return 1;
     } else {
         //Aqui es donde hacemos la llamada recursiva
-        return n * factorial(n - 1);
+        return n * factorial(n - 1);        //Basicamente se van llamando hasta llegar a 1 que te devuelve 1 
+        //y cuando llega a este sube todos los escalones hasta llegar a la 1 llamada y da un resultado, para cuando ya no se llama a si mismo.
     }
 
 }
